@@ -1,0 +1,15 @@
+# OWASP ZAP baseline rules.
+# Format: <id> <name> <action>
+# action: IGNORE | WARN | FAIL
+# Add rules you want ZAP to treat as failures (a static site rarely triggers these).
+
+40012	Cross Site Scripting (Reflected)	FAIL
+40018	SQL Injection	FAIL
+10010	Cookie No HttpOnly Flag	FAIL
+10015	Incomplete or No Cache-control Header	IGNORE
+10020	Missing Anti-clickjacking Header	WARN
+10021	X-Content-Type-Options Header Missing	WARN
+10023	Information Disclosure - Debug Error Messages	FAIL
+10027	Information Disclosure - Suspicious Comments	WARN
+10038	Content Security Policy (CSP) Header Not Set	IGNORE
+10096	Timestamp Disclosure	IGNORE

@@ -117,4 +117,3 @@ Avatar, etc.) so you can find them quickly.
 - Icons are inline-SVG stand-ins for the licensed Skyboot icon set — visually
   consistent, but not the identical glyphs.
 - The auto-generated `AGENTS.md` / `CLAUDE.md` files are from Next.js and can be ignored.
-# BUNIFU-360
